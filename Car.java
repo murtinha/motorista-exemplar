@@ -42,12 +42,18 @@ public class Car extends Actor
     }
     
     public void checkColision() {
+       Trafic_Car trafic_Car = (Trafic_Car)getOneIntersectingObject(Trafic_Car.class);
        if(this.getX() < 266 || this.getX() > 662) {
            _count+=1;
            if(_count%10 == 0) {
                hitDamage(_count);
             }
             
+        }
+        
+        else if(trafic_Car != null){
+           hitDamage(100);
+           getWorld().removeObject(trafic_Car);
         }
     }
     
@@ -65,7 +71,6 @@ public class Car extends Actor
             gameOver();
         }
     }
-    
  
         
 }

@@ -1,14 +1,13 @@
 #Greenfoot properties
-#Sun Oct 22 23:23:24 BRT 2017
-class.Obstcl_Green_Car.image=1281357634d6c3c3e28791fd4e975f91d4275b.png
-class.MyWorld.image=background-1.png
+#Mon Oct 23 00:04:52 BRT 2017
 mainWindow.width=850
+class.MyWorld.image=background-1.png
 class.Car.image=1280457634d6c3c3e28791fd4e975f91d4275b.png
 class.MyWorld.superclass=greenfoot.World
 project.charset=UTF-8
 version=3.0.0
-class.Obstcl_Green_Car.superclass=greenfoot.Actor
 class.Car.superclass=greenfoot.Actor
+class.Trafic_Car.superclass=greenfoot.Actor
 world.lastInstantiated=MyWorld
 mainWindow.y=40
 mainWindow.x=40
