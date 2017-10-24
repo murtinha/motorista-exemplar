@@ -17,7 +17,7 @@
   O jogador utilizará as setas do teclado para jogar. Para mover o carro utilize a seta para direita ou para esquerda.
 
 4.1.7 Integrantes:
-  Eric Murta
-  Bruno Pontes
-  Matheus Souza
-  João Baldasso
+  Eric Murta, 
+  Bruno Pontes, 
+  Matheus Souza, 
+  João Baldasso, 
