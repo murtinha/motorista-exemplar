@@ -5,7 +5,10 @@
   Chegar ao fim do jogo sem tomar multas o suficiente para perder a carteira ou bater o carro.
 
 4.1.3 Regras:
-  O jogador deve chegar ao final da fase sem destruir o carro ou perder a carteira de motorista. Para destruir o carro o jogador tem que colidir com os carros que estão pela fase 2 vezes. Caso o jogador não pare para os pedestres 2 vezes ele perde a carteira de motorista.
+  O jogador deve chegar ao final da fase sem destruir o carro ou perder a carteira de motorista.
+  Para destruir o carro o jogador tem que colidir com os carros que estão pela fase ou com as laterais da fase
+  um certo numero de vezes.
+  Caso o jogador atropele bicicletas ou pedestres um certo número de vezes, ele perde a carteira.
 
 4.1.4 Pontuações:
   O jogo contará com um sistema de pontuação negativa, caso o jogador atropele um pedestre ou uma bicicleta ele perderá pontos na carteira.
