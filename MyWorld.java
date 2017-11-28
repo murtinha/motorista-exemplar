@@ -15,6 +15,7 @@ public class MyWorld extends World
      */
     GreenfootSound backgroundMusic = new GreenfootSound("Top Gear - Las Vegas.mp3");
     private int _randomX;
+    private int initialNumber = 0;
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
@@ -23,14 +24,7 @@ public class MyWorld extends World
     }
     
     public void act() {
-        _randomX = getRandomNumber(266, 662);
-        if(Greenfoot.getRandomNumber(100)==0) {
-            String carColor = chooseColor();
-            Trafic_Car traficCar = new Trafic_Car();
-            traficCar.setImage(carColor);
-            addObject(traficCar, _randomX, 0);
-            
-        }
+        generateCars();
     }
     
     public void started() {
@@ -57,5 +51,20 @@ public class MyWorld extends World
         String[] colors = {"green_car.png", "blue_car.png", "red_car.png", "pink_car.png"};
         
         return colors[Greenfoot.getRandomNumber(3)];
+    }
+    
+    private void generateCars() {
+        _randomX = getRandomNumber(266, 662);
+        int allowCarGeneration = Greenfoot.getRandomNumber(80);
+        if(allowCarGeneration == 0) {
+            if(initialNumber <= (_randomX -150) || initialNumber >= (_randomX +150)) {
+                String carColor = chooseColor();
+                Trafic_Car traficCar = new Trafic_Car();
+                traficCar.setImage(carColor);
+                addObject(traficCar, _randomX, 0);
+                initialNumber = _randomX;
+        }
+            
+        }
     }
 }

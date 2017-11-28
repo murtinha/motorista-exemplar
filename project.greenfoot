@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Mon Oct 23 00:04:52 BRT 2017
+#Tue Nov 28 19:16:06 BRT 2017
 mainWindow.width=850
 class.MyWorld.image=background-1.png
 class.Car.image=1280457634d6c3c3e28791fd4e975f91d4275b.png
@@ -7,8 +7,8 @@ class.MyWorld.superclass=greenfoot.World
 project.charset=UTF-8
 version=3.0.0
 class.Car.superclass=greenfoot.Actor
-class.Trafic_Car.superclass=greenfoot.Actor
 world.lastInstantiated=MyWorld
+class.Trafic_Car.superclass=greenfoot.Actor
 mainWindow.y=40
 mainWindow.x=40
 mainWindow.height=600

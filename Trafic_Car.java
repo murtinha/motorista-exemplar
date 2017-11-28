@@ -22,5 +22,8 @@ public class Trafic_Car extends Actor
         if(isAtEdge()) {
             getWorld().removeObject(this);
         }
+       
+        
+      
     }
 }

@@ -15,4 +15,6 @@ comment6.params=start\ end
 comment6.target=int\ getRandomNumber(int,\ int)
 comment7.params=
 comment7.target=java.lang.String\ chooseColor()
-numComments=8
+comment8.params=
+comment8.target=void\ generateCars()
+numComments=9
