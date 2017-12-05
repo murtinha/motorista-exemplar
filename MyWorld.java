@@ -25,6 +25,7 @@ public class MyWorld extends World
     
     public void act() {
         generateCars();
+        
     }
     
     public void started() {
@@ -40,6 +41,18 @@ public class MyWorld extends World
     {
         Car car = new Car();
         addObject(car,559,530);
+        
+        Vida1 vida1 = new Vida1();
+        Vida2 vida2 = new Vida2();
+        Vida3 vida3 = new Vida3();
+        Vida4 vida4 = new Vida4();
+        Vida5 vida5 = new Vida5();
+        
+        addObject(vida1,70,410);
+        addObject(vida2,70,440);
+        addObject(vida3,70,470);
+        addObject(vida4,70,500);
+        addObject(vida5,70,530);
     }
     
     private int getRandomNumber(int start, int end) {

@@ -12,7 +12,7 @@ public class Car extends Actor
      * Act - do whatever the Car wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public int Resistance;
+    static int Resistance;
     private int _count;
     public Car() {
         Resistance = 500;
@@ -26,6 +26,7 @@ public class Car extends Actor
         checkResistance();
     }
     
+        
     private void move() {
         String key = Greenfoot.getKey();
         if (key == "left" && this.getX() > 266) {
@@ -62,7 +63,7 @@ public class Car extends Actor
         Greenfoot.stop();
     }
     
-    public int getResistance() {
+    static int getResistance() {
         return Resistance;
     }
     
